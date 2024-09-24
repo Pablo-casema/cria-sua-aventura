@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <title>A Casa Abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-o">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Você está em uma cidade pequena, envolta em mistérios e lendas. Recentemente, rumores começaram a circular sobre uma casa abandonada nos arredores. Alguns dizem que é assombrada pelos espíritos de uma família que desapareceu misteriosamente há décadas. A curiosidade te consome. </p>
+            <button class="btn-proximo" data-proximo="1" >Decidir investigar a casa.</button>
+            <button class="btn-proximo" data-proximo="0" > Ignorar os rumores e voltar para casa.
+            </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao chegar à casa, a atmosfera é pesada. A estrutura antiga está coberta de sombras. Você sente um frio na espinha ao empurrar a porta.</p>
+            <button class="btn-proximo" data-proximo="2" >Entrar na casa.</button>
+            <button class="btn-proximo" data-proximo="2" >Chamar por alguém antes de entrar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Dentro, o hall é escuro e empoeirado. Fotos de uma família emolduram as paredes, mas um rosto está borrado. Sussurros flutuam no ar.</p>
+            <button class="btn-proximo" data-proximo="3" >Examinar a foto</button>
+            <button class="btn-proximo" data-proximo="3" >Seguir um corredor</button>
+        </div>
+        <div class="passo" id="passo-3"></div>
+            <p>Ao examinar a foto, uma onda de tristeza invade você. Os sussurros se intensificam, formando palavras. “Ajude-nos...”.</p>
+            <button class="btn-proximo" data-proximo="4" >Perguntar em voz alta o que aconteceu</button>
+            <button class="btn-proximo" data-proximo="4" >Ignorar os sussurros</button>
+        </div>
+        <div class="passo" id="passo-4"></div>
+        <p>Seguindo o corredor, você se depara com uma porta entreaberta. Ao entrar, encontra um quarto cheio de brinquedos empoeirados, como se uma criança tivesse deixado tudo para trás.</p>
+        <button class="btn-proximo" data-proximo="5" >Brincar com um boneco</button>
+        <button class="btn-proximo" data-proximo="5" >Sair do quarto</button>
+    </div>
+    <div class="passo" id="passo-5"></div>
+    <p>Os sussurros pedem ajuda. Você sente que precisa resolver o mistério.</p>
+    <button class="btn-proximo" data-proximo="6" >vestigar o que aconteceu</button>
+    <button class="btn-proximo" data-proximo="1" >Desistir e sair</button>
+</div>
+<div class="passo" id="passo-6"></div>
+<p>Ao sair do quarto, você sente um arrepio na nuca. O corredor se fecha atrás de você, como se a casa não quisesse que você fosse embora.</p>
+<button class="btn-proximo" data-proximo="5" >Voltar e investigar o brinquedo</button>
+<button class="btn-proximo" data-proximo="6" >Continuar em frente</button>
+</div>
+<div class="passo" id="passo-7"></div>
+<p>você encontra um diário que conta a história da família e menciona um segredo escondido na casa.</p>
+<button class="btn-proximo" data-proximo="6" >Tentar descobrir o segredo</button>
+<button class="btn-proximo" data-proximo="0" >Deixar o diário e sair</button>
+</div>
+<div class="passo" id="passo-8"></div>
+<p>Você descobre uma passagem secreta atrás de uma estante. A adrenalina aumenta ao perceber que algo importante está escondido ali.</p>
+<button class="btn-proximo" data-proximo="9" >Entrar na passagem</button>
+<button class="btn-proximo" data-proximo="8" >Ficar ali</button>
+</div>
+<div class="passo" id="passo-9"></div>
+<p>Dentro da passagem, você liberta os espíritos. Uma luz intensa envolve a sala, e a atmosfera pesada se dissolve.</p>
+<button class="btn-proximo" data-proximo="10" >permanecer na casa como guardião</button>
+<button class="btn-proximo" data-proximo="0" >Sair da casa</button>
+</div>
+<div class="passo" id="passo-10"></div>
+<p>Enquanto você se prepara para sair, uma figura espectral aparece diante de você. É a mãe da família desaparecida, com um olhar suplicante.</p>
+<button class="btn-proximo" data-proximo="11" >Tentar se comunicar com ela</button>
+<button class="btn-proximo" data-proximo="8" >Correr para a porta</button>
+</div>
+<div class="passo" id="passo-11"></div>
+<p>Se você optar por se comunicar, ela revela que o segredo da casa está escondido em um antigo baú no sótão. Com um gesto, ela te indica o caminho.</p>
+<button class="btn-proximo" data-proximo="12" >Seguir para o sótão</button>
+<button class="btn-proximo" data-proximo="0" >Ignorar e sair</button>
+</div>
+<div class="passo" id="passo-12"></div>
+<p>No sótão, você encontra um baú coberto de poeira. Ao abri-lo, descobre cartas e objetos que contam a história da família e revelam o que aconteceu com eles.</p>
+<button class="btn-proximo" data-proximo="13" >Ler as cartas</button>
+<button class="btn-proximo" data-proximo="0" >Fechar o baú</button>
+</div>
+<p>Com a verdade em mãos, você se sente mais leve. Se permanecer, você pode ajudar os espíritos a encontrar paz. Se sair, você carrega a história com você.</p>
+<button class="btn-proximo" data-proximo="12" >Ficar e ajudar os espíritos</button>
+<button class="btn-proximo" data-proximo="0" >Sair e deixar o passado para trás</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
